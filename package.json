@@ -1,0 +1,19 @@
+{
+  "name": "curie-stats",
+  "version": "1.0.0",
+  "description": "## Interface Administrateur     - Administration Utilisateurs     - Administrations codage CPAM / Lieu /      - Dashboard général [FORMAT DESKTOP]         - Monitorage global         - Par catégorie         - Par utilisateur         - Graph Data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xOops4/curie-stats.git"
+  },
+  "author": "xOops",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xOops4/curie-stats/issues"
+  },
+  "homepage": "https://github.com/xOops4/curie-stats#readme"
+}
