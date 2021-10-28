@@ -50,6 +50,3 @@ async function cardNav(card) {
 
 }
 
-
-/* App Init */
-screenNav('home'); 

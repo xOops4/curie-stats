@@ -1,0 +1,3 @@
+
+/* App Init */
+screenNav('home'); 
