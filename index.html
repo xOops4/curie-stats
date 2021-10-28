@@ -1,12 +1,74 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curie-Stats</title>
-</head>
-<body>
-    <p>init-project</p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script defer src="js/app.js"></script>
+    <title>Curie Stats</title>
+    <link rel="shortcut icon" href="img/icon-mono-512.png" type="image/x-png" />
+
+  </head>
+  <body>
+    <div class="icon-menu">
+      <span class="material-icons-round" onClick="showDiv('side-menu');">menu</span>
+    </div>
+    <div class="fade" onclick="removeFade();"></div>
+    <header>
+      <h1>Bonjour Noémie</h1>
+      <h2>Selectionnez l'acte que vous souhaitez coder</h2>
+    </header>
+    <main id="app">
+    </main>
+    <!-- SIDE MENU -->
+
+    <div class="side-menu">
+        <div class="side-menu-icon">
+            <span class="material-icons-round" onClick="hideDiv('side-menu');">cancel</span>
+        </div>
+        <div class="avatar">
+            <img src="img/noemie.jpeg" alt="" srcset="">
+        </div>
+        <h3>Dr Noémie GIRARD</h3>
+        <br>
+        <p>Chef de clinique assistante</p>
+        <p>Ancienneté : 3 ans</p>
+        <br>
+        <p>Expertise : sénologie, gynécologie</p>
+        <p>Projets : Avatar, Planning</p>
+    </div>
+<!-- SIDE MENU -->
+
+    <nav>
+        <div class="nav-item active" id="home" onClick="screenNav('home');">
+            <span class="material-icons-round">donut_large</span>
+            <br/>
+            Home
+        </div>
+        <div class="nav-item" id="activity"  onClick="screenNav('activity');">
+            <span class="material-icons-round">format_list_bulleted</span>
+            <br/>
+            Activité
+        </div>
+        <div class="nav-item" id="dashboard"  onClick="screenNav('dashboard');">
+            <span class="material-icons-round">dashboard</span>
+            <br/>
+            Dashboard
+        </div>
+    </nav>
+        <!-- POP CARD -->
+        <div class="pop-card">
+          <div>
+              <span class="material-icons-round" onClick="hideDiv('pop-card');">cancel</span></div>
+          <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Libero commodi debitis facere harum sit alias quo error nostrum vel 
+              recusandae?
+          </p>
+      </div>
+  <!-- POP CARD -->
+
+  
+  </body>
 </html>
